@@ -75,12 +75,12 @@
           </svg>
         </button>
         <div class="modal__links">
-          <a class="modal__link">About</a>
-          <a class="modal__link">Blog</a>
-          <a class="modal__link">Pricing</a>
-          <a class="modal__link">Contact Us</a>
-          <a class="modal__link">Login</a>
-          <a class="modal__link modal__link--primary">Sign Up</a>
+          <a href = "#about" class="modal__link" onclick="closeMenu()">About</a>
+          <a href = "#blog" class="modal__link" onclick="closeMenu()">Blog</a>
+          <a href = "#pricing" class="modal__link" onclick="closeMenu()">Pricing</a>
+          <a href = "#contactus" class="modal__link" onclick="closeMenu()">Contact Us</a>
+          <a href = "#login" class="modal__link" onclick="closeMenu()">Login</a>
+          <a href = "#signup" class="modal__link modal__link--primary" onclick="closeMenu()">Sign Up</a>
         </div>
       </div>
       <header>
@@ -135,7 +135,7 @@
                   />
                 </div>
                 <div class="feature__description">
-                  <h3 class="feature__title">Secure</h3>
+                  <h2 class="feature__title">Secure</h3>
                   <p>
                     We strictly only deal with vendors that provide top notch
                     security.
@@ -152,7 +152,7 @@
                   />
                 </div>
                 <div class="feature__description">
-                  <h3 class="feature__title">24/7 Support</h3>
+                  <h2 class="feature__title">24/7 Support</h3>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipiscing elit.
                     Dolor sit amet consectetur.
@@ -168,7 +168,7 @@
                   />
                 </div>
                 <div class="feature__description">
-                  <h3 class="feature__title">Customizable</h3>
+                  <h2 class="feature__title">Customizable</h3>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipiscing elit.
                     Dolor sit amet consectetur.
@@ -186,7 +186,7 @@
                 </div>
 
                 <div class="feature__description">
-                  <h3 class="feature__title">Reliable</h3>
+                  <h2 class="feature__title">Reliable</h3>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipiscing elit.
                     Dolor sit amet consectetur.
@@ -203,7 +203,7 @@
                   />
                 </div>
                 <div class="feature__description">
-                  <h3 class="feature__title">Fast</h3>
+                  <h2 class="feature__title">Fast</h3>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipiscing elit.
                     Dolor sit amet consectetur.
@@ -219,7 +219,7 @@
                   />
                 </div>
                 <div class="feature__description">
-                  <h3 class="feature__title">Easy</h3>
+                  <h2 class="feature__title">Easy</h3>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipiscing elit.
                     Dolor sit amet consectetur.
@@ -236,9 +236,9 @@
             <div class = "quality__info">
                 <h4 class="purple">QUALITY WORK</p>
                 <h1>Designed & Developed by <span class="purple"> Professionals</span></h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur 
-                    adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae 
-                    pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Enim quam cupiditate commodi qui excepturi laborum adipisci officiis, 
+                    corporis possimus. Reiciendis?</p>
                 <button class="btn"> Learn More</button>
             </div>
             <div class="homepageImg">
@@ -497,10 +497,12 @@
             <div class="container">
                 <div class="row">
                     <div class="call__section">
-                        <h1>Developers all over the world are happily using Treact.</h1>
-                        <div class="call__buttons">
-                        <button class="btn btn__getstarted">Get Started</button>
-                        <button class="btn btn__contactus">Contact Us</button>
+                        <div class="start__row">
+                            <h1>Developers all over the world are happily using Treact.</h1>
+                            <div class="call__buttons">
+                                <button class="btn btn__getstarted">Get Started</button>
+                                <button class="btn btn__contactus">Contact Us</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -546,6 +548,7 @@
                 <h5>Disclaimer</h5>
             </li>
         </ul>
+        <div class="footer__divider"></div>
         <div class="footer__info">
             <div class="treatInc">
                 <img src="assets/footerLogo.svg" alt="footerLogo">
