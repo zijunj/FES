@@ -50,6 +50,10 @@ h1 {
     font-size: 48px;
 }
 
+img {
+    width: 100%;
+}
+
 p {
     color: rgb(100, 97, 97);
     font-size: 18px;
@@ -335,6 +339,7 @@ FEATURES ↓
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 20px;
 }
 
@@ -1298,8 +1303,10 @@ MOBILE RESPONSIVENESS ↓
         line-height:1.5;
     }
 
+
+
     .email__form button{
-        width: 480px;
+        width: 100%;
         padding: 16px 0;
         margin: 16px 0;
         margin-bottom: 0px;
@@ -1323,6 +1330,10 @@ MOBILE RESPONSIVENESS ↓
         margin-left: 0px;
         margin-top: 16px;
     }
+
+    .feature__description {
+    margin-left: 0px;
+}
 
     /* pricing section */
 
